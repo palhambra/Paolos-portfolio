@@ -1,0 +1,166 @@
+:root{
+  --dark: #2D1B6A;
+  --light: white;
+}
+
+body{
+  background-image: url("/assets/images/download.jpg");
+  background-size: contain;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  background: linear-gradient(185deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(126,121,119,1) 100%);
+}
+
+.header h1 {
+  font-size: 200%;
+  color: var(--light)
+}
+
+nav {
+padding-left: 10%;
+padding-right: 10%;
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+display: inline-block;
+padding: 10px 20px;
+margin-left: auto;
+}
+
+nav a {
+color: var(--light);
+text-decoration: none;
+font-weight: bold;
+}
+
+.self {
+  border-radius: 15px;
+  border-style: solid;
+  width: 100%;
+  height: auto;
+  
+}
+
+.icon-links {
+display: flex;
+list-style: none;
+}
+
+.icon-links ul li{
+display: inline-block;
+}
+
+i {
+  font-size: 150px;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-linkedin{
+  color: #0072b1;
+  
+}
+
+.fa-square-instagram{
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+   -webkit-background-clip: text;
+}
+.sections {
+  /*background-color: #24252A;*/
+  color: var(--light);
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 0 0 300px; */
+  min-height: 100vh;
+  justify-content: space-evenly;
+ }
+
+.hero{
+  
+  width: 100%;
+  padding: 10px;
+}
+
+.about-me, .work {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px; 
+  margin: 20px;
+  background-color: var(--dark);
+  width: 100%;
+  height: 300px;
+  }
+
+.more-work {
+  flex-direction: row;
+  flex-grow: 0;
+  width: calc(40% - 5px);
+  padding: 15px;
+  height: 350px;
+}
+
+.work {
+  background-image: url(/assets/images/placeholder.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.sidebar {
+  float: left;
+  width: 350px;
+  height: 675px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin:10px;
+  background-color: aliceblue;
+  text-align: center;
+  position: relative;
+  }
+
+input {
+  margin-bottom: 20px;
+}
+
+.send { 
+display:flex;
+justify-content: center;  
+}
+
+footer{
+  display: block;
+  border-style: solid;
+  padding:5px;
+  margin:5px;
+  background-color: aliceblue;
+  text-align: center;
+ }
+
+ form{
+  display: inline-block;
+  }
+
+ textarea{
+  vertical-align: middle;
+ }
+
+
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
