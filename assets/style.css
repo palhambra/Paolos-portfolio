@@ -92,10 +92,11 @@ i {
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
    -webkit-background-clip: text;
 }
+
 .sidebar {
-  float: left;
+  float: right;
   width: 350px;
-  height: 675px;
+  height: 700px;
   border-style: solid;
   border-width: 1px;
   border-radius: 15px;
@@ -125,10 +126,11 @@ i {
   border-radius: 15px;
 }
 
-/* .top{
+.top{
   display: flex;
-  flex-wrap: wrap;
-} */
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
 
 .about-me, .work {
   border-style: solid;
@@ -209,7 +211,9 @@ justify-content: center;
   section,
   .header,
   .work,
-  .about-me
+  .about-me,
+  .top,
+  .hero
     {
     flex-direction: column;
     flex-wrap: wrap;
@@ -219,6 +223,7 @@ justify-content: center;
     text-align: center;
     margin: 0px;
     margin-bottom: 5px;
+    padding:0;
   }
   .sidebar {
     width: 95%;
