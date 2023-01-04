@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url("/assets/images/download.jpg");
+  background-image: url("../images/download.jpg");
   background-size: contain;
   }
 
@@ -148,7 +148,7 @@ i {
 
 /* Styling within the section */
 .work {
-  background-image: url(/assets/images/placeholder.jpg);
+  background-image: url(../images/placeholder.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 0;
