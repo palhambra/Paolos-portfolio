@@ -153,10 +153,14 @@ i {
   background-size: 100% 100%;
   padding: 0;
   position: relative;
+  
 }
+
+
 /* Width set so 2 sections fit */
 .more-work {
   width: 46%;
+ 
     
 }
 /* Header and description within section */
@@ -167,6 +171,8 @@ i {
   position: absolute;
   bottom: 40px;
   padding: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 
