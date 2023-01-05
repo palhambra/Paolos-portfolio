@@ -8,4 +8,4 @@ Note: I have not created a Linkedin profile, so the link will take you to the ho
 
 ![This is a snip of what you see when you first visit the page](assets/images/challenge-02.png)
 
-[https://palhambra.github.io/Paolos-portfolio/]
+https://palhambra.github.io/Paolos-portfolio/
