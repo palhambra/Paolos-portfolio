@@ -156,6 +156,10 @@ i {
   
 }
 
+#work {
+  background-image: url(../images/IYF.gif);
+}
+
 
 /* Width set so 2 sections fit */
 .more-work {
