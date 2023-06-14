@@ -164,6 +164,10 @@ i {
   background-image: url(../images/moving-pictures.png);
 }
 
+.work3 {
+  background-image: url(../images/Sluffin-or-Buffin.png)
+}
+
 /* Width set so 2 sections fit */
 .more-work {
   width: 46%;
